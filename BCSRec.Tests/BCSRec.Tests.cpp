@@ -15,6 +15,7 @@ namespace BCSRecTests
 		
 		TEST_METHOD(T001_getPerimeter_4and6_20)
 		{
+			//checks if the function getArea from main.c will give correct result at output
 			int Result = 0;
 			int length = 6, width = 4;
 			int* pWidth, * pLength;
@@ -25,6 +26,7 @@ namespace BCSRecTests
 		}
 		TEST_METHOD(T002_getArea_4and6_24)
 		{
+			//checks if the function getArea from main.c will give an exact result at output
 			int Result = 0;
 			int length = 6, width = 4;
 			int* pWidth, * pLength;
@@ -35,6 +37,7 @@ namespace BCSRecTests
 		}
 		TEST_METHOD(T003_setLength_55)
 		{
+			//checks if the value 55 will be validated by "if" statement in setLength from main.c
 			int input = 55;
 			int length = 1; //if the value of -199 will be assigned, test won`t pass
 			int* plength;
@@ -55,6 +58,7 @@ namespace BCSRecTests
 		}
 		TEST_METHOD(T004_setLength_100)
 		{
+			//checks if the value 100 will be validated by "if" statement in setLength from main.c
 			int input = 100;
 			int length = 1; //if the value of 199 will be assigned it will change and test won`t pass
 			int* plength1;
@@ -75,6 +79,7 @@ namespace BCSRecTests
 		}
 		TEST_METHOD(T005_setLength_0)
 		{
+			//checks if the value 0 will be validated by "if" statement in setLength from main.c
 			int input = 0;
 			int length = 1; //if it will assign 0, this will change
 			int* plength2;
@@ -96,6 +101,7 @@ namespace BCSRecTests
 
 		TEST_METHOD(T006_setWidth_45)
 		{
+			//checks if the value 45 will be validated by "if" statement in setWidth from main.c
 			int input = 45;
 			int width = 1; //if the value of -199 will be assigned, test won`t pass
 			int* pWidth;
@@ -116,6 +122,7 @@ namespace BCSRecTests
 		}
 		TEST_METHOD(T007_setWidth_100)
 		{
+			//checks if the value 100 will be validated by "if" statement in setWidth from main.c
 			int input = 100;
 			int width = 1; //if the value of 199 will be assigned it will change and test won`t pass
 			int* pWidth1;
@@ -136,6 +143,7 @@ namespace BCSRecTests
 		}
 		TEST_METHOD(T008_setWidth_0)
 		{
+			//checks if the value 0 will be validated by "if" statement in setWidth from main.c
 			int input = 0;
 			int width = 1; //if it will assign 0, this will change
 			int* pWidth2;
